@@ -168,5 +168,214 @@ Save this as `index.html`.
     }
 
     .card h3 {
-      margin
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      color: #cbd5e1;
+    }
+
+    .about {
+      padding: 100px 0;
+      background: #111827;
+    }
+
+    .about-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 50px;
+      align-items: center;
+    }
+
+    .about-text h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      color: #cbd5e1;
+      margin-bottom: 20px;
+    }
+
+    .about-image {
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      height: 320px;
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    .cta {
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .cta h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .cta p {
+      color: #cbd5e1;
+      margin-bottom: 30px;
+    }
+
+    footer {
+      padding: 40px 0;
+      border-top: 1px solid #1e293b;
+      text-align: center;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 768px) {
+      .hero-content h1 {
+        font-size: 2.8rem;
+      }
+
+      .section-title h2,
+      .about-text h2,
+      .cta h2 {
+        font-size: 2rem;
+      }
+
+      .nav-links {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">MyBrand</div>
+
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div>
+        <h1>Build Something Amazing</h1>
+
+        <p>
+          A clean, modern homepage template you can customize for your
+          portfolio, startup, business, or personal website.
+        </p>
+
+        <div class="buttons">
+          <a href="#" class="btn btn-primary">Get Started</a>
+          <a href="#features" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Features</h2>
+        <p>Everything you need to launch quickly.</p>
+      </div>
+
+      <div class="feature-grid">
+
+        <div class="card">
+          <h3>Fast Performance</h3>
+          <p>
+            Lightweight and optimized for speed on all devices.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Responsive Design</h3>
+          <p>
+            Looks great on desktops, tablets, and smartphones.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Easy Customization</h3>
+          <p>
+            Change text, colors, and sections in minutes.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-content">
+
+      <div class="about-text">
+        <h2>About This Website</h2>
+
+        <p>
+          This template is built using only HTML and CSS, making it easy for beginners to learn and customize.
+        </p>
+
+        <p>
+          You can upload this file directly to GitHub Pages and instantly publish your site online.
+        </p>
+
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+
+      <div class="about-image">
+        Your Brand
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="container">
+      <h2>Ready to Launch?</h2>
+
+      <p>
+        Start customizing this homepage and publish your website today.
+      </p>
+
+      <a href="#" class="btn btn-primary">Contact Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 MyBrand. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
 ```
+
+## How To Use
+
+1. Open your website folder.
+2. Create a file named `index.html`.
+3. Paste the code into the file.
+4. Save the file.
+5. Open `index.html` in your browser.
+6. Upload it to GitHub to publish online.
+
+## Customize These Parts
+
+* Change `MyBrand` to your website name.
+* Replace the text sections with your own content.
+* Change colors in the CSS.
+* Add your own images.
+* Replace button links (`#`) with real pages.
